@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../pages/page_loaders.scss"
+    ],
+    "names": [],
+    "file": "page_loaders.css"
+}

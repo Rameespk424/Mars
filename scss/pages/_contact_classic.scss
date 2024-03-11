@@ -1,0 +1,127 @@
+.contact_classic{
+.wrapper{
+    padding: 100px 0px 150px 0px;
+    @media screen and(max-width:992px) {
+        padding: 80px 0px 100px 0px;
+
+    }
+    .address{
+     @media screen and(max-width:992px) {
+         padding-top: 50px;
+     }
+
+        h4 {
+            font-size: 25px;
+            letter-spacing: 1px;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-bottom: 0;
+            padding-bottom: 20px;
+        }
+        p {
+            color: var(--p-color2);
+            line-height: 1.7;
+            padding: 10px 0 10px 0;
+        }
+
+        .address_details{
+            display: flex;
+            justify-content: space-between;
+            @media screen and(max-width:992px) {
+          display: block;
+            }
+
+            @media screen and(max-width:992px) {
+                .right{
+                    padding-bottom: 20px;
+                }
+                  }
+            .right, .left{
+                address{
+                    padding-bottom: 0px;
+                    margin-bottom: 0;
+                      h6{
+                color: var(--mars-color-3);
+                font-size: 14px;
+                font-weight: 600;
+                margin-bottom: 0;
+                padding-top: 10px;
+            }
+            p{
+                color: var(--p-color1);
+                font-size: 13px;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+                }
+                .phone{
+                    padding-top: 0;
+                    margin-top: 0;
+                    border-bottom: 1px dotted rgb(44, 43, 43);
+                    span{
+                        color: var(--mars-color-3);
+                        font-size: 13px;
+                        font-weight: 500;  
+   
+                  
+                    }
+                    a{
+                        color: var(--p-color1);
+                        font-size: 13px; 
+                        text-decoration: none;
+                    cursor: help;
+
+                    }
+                }
+            }
+          
+        }
+    }
+   
+
+    .contact_form{
+   
+      
+
+        h4 {
+            font-size: 25px;
+            letter-spacing: 1px;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-bottom: 0;
+        }
+        p {
+            color: var(--p-color2);
+            line-height: 1.7;
+            padding: 10px 0 10px 0;
+            font-size: 12px;
+        }
+
+
+        .form-group{
+            label{
+                font-size: 12px;
+            }
+            .form-control{
+                font-size: 12px;
+                padding: 15px 15px;
+            }
+        }
+    }
+}
+
+
+
+   
+.map_area {
+    margin-top: 70px;
+    h1,
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+}

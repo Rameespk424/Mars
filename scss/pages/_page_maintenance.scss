@@ -1,0 +1,64 @@
+.maintenance {
+    height: 70vh;
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        .maintenace_wrapper {
+            text-align: center;
+            @media screen and(max-width:768px) {
+                
+                padding: 0px 15px;
+            }
+            .caution_icon {
+                i {
+                    font-size: 60px;
+                }
+            }
+            .error_message{
+                font-size: 80px;
+                @media screen and(max-width:992px) {
+                    font-size: 50px;
+                }
+                @media screen and(max-width:768px) {
+                    font-size: 30px;
+                    padding: 0px 15px;
+                }
+                color: var(--mars-color-2);
+                font-weight: 700;
+            }
+            .apology{
+                font-size: 16px !important;
+                        color: var(--p-color2);
+            }
+        }
+    }
+
+ 
+                .progress_wrapp{
+                    margin-top: 30px;
+                    .progress_heading{
+                        justify-content: space-between;
+                       
+                        .name{
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+                        .percent{
+                            font-size: 11px;
+                            color: var(--p-color2);
+                        }
+                    }
+                    .progress {
+                        margin-bottom: 10px;
+                        border-radius: 0;
+                      }
+                      
+                      .progress-bar {
+                        width: 0;
+                        color: var(--sub-color-2);
+                        background-color: #ffc107!important;
+                      }
+                }
+}

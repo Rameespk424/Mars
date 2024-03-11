@@ -1,0 +1,180 @@
+.about_basic {
+    .company {
+        padding-top: 80px;
+        .wrapper {
+            .left {
+                p {
+                    padding-top: 25px;
+                    line-height: 1.8;
+                }
+            }
+            .right {
+                .progress_wrapp {
+                    margin-top: 30px;
+                    .progress_heading {
+                        justify-content: space-between;
+                        .name {
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+                        .percent {
+                            font-size: 11px;
+                            color: var(--p-color2);
+                        }
+                    }
+                    .progress {
+                        margin-bottom: 10px;
+                        border-radius: 0;
+                    }
+                    .progress-bar {
+                        width: 0;
+                        color: var(--sub-color-2);
+                        background-color: var(--sub-color-2);
+                    }
+                }
+            }
+        }
+    }
+    .about_partner {
+        padding-bottom: 100px;
+        .hd {
+            padding-top: 30px;
+            position: relative;
+            text-align: center;
+            &::after {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 45px;
+                height: 1px;
+                width: 100%;
+                background: #e5e5e5;
+                content: "";
+                z-index: 5;
+                margin: 0 auto;
+            }
+            span {
+                background-color: var(--white-color);
+                font-size: 25px;
+               
+                font-weight: normal;
+                position: absolute;
+                color: var(--p-color2);
+                padding: 0 10px;
+                top: 25px;
+                transform: rotate(180deg);
+                //   transform-origin: 20% 40%;
+            }
+        }
+        .wrapper {
+margin-top: 100px;
+            p{
+                padding-top: 15px;
+                color: var(--p-color2);
+                font-weight: 400;
+                text-align: center;
+            }
+            .team_info {
+                padding-top: 50px;
+                display: grid;
+                grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+
+                @media screen and(max-width:1200px) {
+                grid-template-columns: 4fr 4fr 4fr 4fr; 
+                      }
+                      @media screen and(max-width:768px) {
+                        grid-template-columns: 3fr 3fr 3fr; 
+                              }  
+                                @media screen and(max-width:576px) {
+                                grid-template-columns: 2fr 2fr  
+                                      }
+
+                li {
+                    border: 1px solid;
+                    border-color: var(--border-color2);
+                    a {
+                        position: relative;
+                        display: block;
+                        -webkit-transition: 0.5s;
+                        transition: 0.5s;
+                        img {
+                            width: 100%;
+                            padding: 20px 20px;
+                            filter: grayscale(100%);
+                        }
+                    }
+                    &:hover {
+                        a {
+                            -webkit-transition: 0.5s;
+                            transition: 0.5s;
+                            &::before {
+                                position: absolute;
+                                content: " ";
+                                height: 100%;
+                                width: 100%;
+                                background-color: rgba(0, 0, 0, 0.048);
+                                z-index: 999;
+                                -webkit-transition: 0.5s;
+                                transition: 0.5s;
+                            }
+                        }
+                    }
+                }
+                li:nth-child(1) {
+                    border: 1px solid;
+                    border-color: var(--border-color);
+                    border-left-color: transparent;
+                    border-top-color: transparent;
+                    border-bottom-color: transparent;
+                @media screen and(max-width:1200px) {
+                    border-bottom-color: var(--border-color);
+                }
+                }
+                li:nth-child(2) {
+                    border-top-color: transparent;
+                }
+                li:nth-child(3) {
+                    border-top-color: transparent;
+                }
+                li:nth-child(4) {
+                    border-top-color: transparent;
+                    @media screen and(max-width:1200px) {
+                        border-right-color:transparent;
+                    }
+                }
+                li:nth-child(5) {
+                    border-right-color: transparent;
+                    border-top-color: transparent;
+                    @media screen and(max-width:1200px) {
+                        border-right-color: var(--border-color);
+                        border-left-color: transparent;
+                    }
+                }
+                li:nth-child(6) {
+                    border-left-color: transparent;
+                    border-bottom-color: transparent;
+                }
+                li:nth-child(7) {
+                    border-bottom-color: transparent;
+                    @media screen and(max-width:1200px) {
+                        border-bottom-color: var(--border-color);
+                    }
+                }
+                li:nth-child(8) {
+                    border-bottom-color: transparent;
+                    @media screen and(max-width:1200px) {
+                        border-bottom-color: var(--border-color);
+                        border-right-color:transparent;
+                    }
+                }
+                li:nth-child(9) {
+                    border-bottom-color: transparent;
+                }
+                li:nth-child(10) {
+                    border-right-color: transparent;
+                    border-bottom-color: transparent;
+                }
+            }
+        }
+    }
+}

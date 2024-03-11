@@ -1,0 +1,208 @@
+.page_clients {
+    padding-bottom: 100px;
+    @media screen and(max-width:576px) {
+    
+        padding-bottom: 50px;
+    }
+    .wrapper {
+        margin-top: 100px;
+        @media screen and(max-width:576px) {
+    
+            margin-top: 50px;
+        }
+        p {
+            padding-top: 15px;
+            color: var(--p-color2);
+            font-weight: 400;
+            text-align: center;
+            @media screen and(max-width:576px) {
+    
+      padding-right: 15px;
+      padding-left: 15px;
+            }
+        }
+        .team_info {
+            padding-top: 100px;
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr 4fr;
+            padding-left: 0;
+            @media screen and(max-width:768px) {
+                grid-template-columns: 1fr 1fr 1fr;
+                padding-top: 70px;
+            }
+            @media screen and(max-width:576px) {
+                padding-top: 40px;
+            }
+            @media screen and(max-width:576px) {
+                grid-template-columns: 1fr 1fr;
+            }
+            li {
+                border: 1px solid;
+                border-color: var(--border-color2);
+                position: relative;
+                &:hover {
+                    .card {
+                        display: block;
+                    }
+                }
+                .card {
+                    display: none;
+                    position: absolute;
+                    z-index: 999;
+                    top: -130px;
+                    left: 0;
+                    background-color: var(--white-color);
+                    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.26);
+                    -webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.26);
+                    -moz-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.26);
+                    .card-header {
+                        background-color: transparent;
+                        padding: 15px 15px;
+                        font-weight: 500;
+                        font-size: 14px;
+                        color: var(--p-color);
+                        background-color: var(--white-color);
+                    }
+                    .card-body {
+                        background-color: var(--white-color);
+                        padding: 0;
+                        .card-text {
+                            padding: 14px 14px;
+                            font-size: 12px;
+                            text-align: left;
+                            color: var(--mars-color-3);
+                        }
+                    }
+                }
+                a {
+                    position: relative;
+                    display: block;
+                    -webkit-transition: 0.5s;
+                    transition: 0.5s;
+                    img {
+                        width: 100%;
+                        padding: 20px 20px;
+                        filter: grayscale(100%);
+                    }
+                }
+                &:hover {
+                    a {
+                        -webkit-transition: 0.5s;
+                        transition: 0.5s;
+                        &::before {
+                            position: absolute;
+                            content: " ";
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgba(0, 0, 0, 0.048);
+                            z-index: 2;
+                            -webkit-transition: 0.5s;
+                            transition: 0.5s;
+                        }
+                    }
+                }
+            }
+            li:nth-child(1) {
+                border: 1px solid;
+                border-color: var(--border-color);
+                border-left-color: transparent;
+                border-top-color: transparent;
+            }
+            li:nth-child(2) {
+                border-top-color: transparent;
+                @media screen and(max-width:768px) {
+                border-right-color: transparent;
+                 
+                }
+            }
+            li:nth-child(3) {
+                border-top-color: transparent;
+                @media screen and(max-width:768px) {
+                    border-right-color: transparent !important;
+                }
+                @media screen and(max-width:576px) {
+                    border-left-color: transparent;
+                    border-right-color:var(--border-color) !important;
+                     
+                    }
+            }
+            li:nth-child(4) {
+                border-top-color: transparent;
+                border-right-color: transparent;
+                @media screen and(max-width:768px) {
+                    border-left-color:transparent !important;
+                    border-right-color:var(--border-color);
+                }
+                @media screen and(max-width:576px) {
+                    border-right-color: transparent !important;
+
+                     
+                    }
+            }
+            li:nth-child(5) {
+                border-left-color: transparent;
+                border-top-color: transparent;
+            }
+            li:nth-child(6) {
+                @media screen and(max-width:768px) {
+                    border-right-color:transparent !important;
+                }
+            }
+            li:nth-child(7) {
+                @media screen and(max-width:768px) {
+                    border-left-color:transparent !important;
+                }
+            }
+            li:nth-child(8) {
+                border-bottom-color: transparent;
+                border-right-color: transparent;
+                @media screen and(max-width:768px) {
+                    border-right-color:var(--border-color);
+                }
+                @media screen and(max-width:576px) {
+                    border-right-color: transparent !important;
+
+                     
+                    }
+            }
+            li:nth-child(9) {
+                border-bottom-color: transparent;
+                border-left-color: transparent;
+                @media screen and(max-width:768px) {
+                    border-right-color:transparent
+                }
+            }
+            li:nth-child(10) {
+                border-bottom-color: transparent;
+                @media screen and(max-width:768px) {
+                    border-left-color:transparent
+                }
+                @media screen and(max-width:576px) {
+                    border-right-color: transparent !important;
+                    border-left-color: var(--border-color);
+                    }
+            }
+            li:nth-child(11) {
+                border-bottom-color: transparent;
+                @media screen and(max-width:576px) {
+                    border-left-color: transparent !important;
+                
+                    }
+            }
+            li:nth-child(12) {
+                border-bottom-color: transparent;
+                border-right-color: transparent;
+            }
+        }
+    }
+}
+.quotes_c {
+    background-color: var(--section-bg);
+    text-align: center;
+    padding: 100px 0;
+    p {
+        padding-top: 15px;
+        color: var(--p-color2);
+        font-weight: 400;
+    }
+}

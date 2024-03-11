@@ -1,0 +1,92 @@
+.loaders{
+    padding-top: 100px;
+    padding-bottom: 80px;
+ background-color:rgb(173, 119, 119);   
+
+ .loaders_wrapper{
+
+    .custom_loader{
+        h5{
+            color: var(--mars-color1);
+            font-size: 18px;
+        }
+        p{
+            line-height: 1.6;
+            font-size: 13px;
+            color: var(--p-color2);
+        }
+    }
+
+     .loader{
+         padding: 100px 0;
+text-align: center;
+         position: relative;
+
+         .loader_class{
+            position: absolute;
+            font-weight: normal !important;
+            font-size: 12px;
+            color: var(--p-color2);
+            background-color: var(--white-color);
+            padding: 9px;
+            display: none;
+            margin-top: 10px;
+            border-radius: 3px;
+            margin-left: 15px;
+         }
+
+         &:hover{
+             .loader_class{
+                 display: block;
+             }
+         }
+         .ball-rotate>div{
+             margin: auto;
+         }
+
+         .ball-clip-rotate-pulse>div:first-child{
+             left: 57px;
+             top: 5px;
+         }
+         .ball-clip-rotate-pulse>div:last-child{
+             left: 50px;
+         }
+         .ball-zig-zag-deflect>div, .ball-zig-zag>div{
+             left: 50px;
+         }
+         .cube-transition>div{
+             left: 50px;
+         }
+         .ball-clip-rotate-multiple>div {
+            position: absolute;
+            left: 25px;
+            top: 15px;
+        }
+        .ball-clip-rotate-multiple>div:last-child {
+            display: inline-block;
+            top: 25px;
+            left: 36px;
+            width: 15px;}
+            .line-spin-fade-loader>div{
+                margin-left: 50px;
+            }
+            .ball-spin-fade-loader{
+                left: 50px;
+            }
+            .ball-scale-ripple-multiple{
+                transform: translateX(70px);
+            }
+            .ball-triangle-path {
+                position: relative;
+                
+                transform: translate(31.01px,-37.51px);
+            }
+     }
+ }
+}
+
+  
+ 
+.ball-pulse > div {
+    background-color: var(--sub-color-2);
+  }

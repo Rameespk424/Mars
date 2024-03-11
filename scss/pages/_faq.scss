@@ -1,0 +1,85 @@
+.faq_section{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    @media screen and(max-width:768px) {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+.wrapper{
+    .faq_wrapper{
+        padding-bottom: 50px;
+        h4{
+            display: inline-block;
+            color: var(--mars-color-1);
+            letter-spacing: 0.5px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        span{
+            color: var(--p-color2);
+            font-weight: 300;
+        }
+        p{
+            font-size: .8rem;
+            font-style: normal;
+            font-weight: 400;
+            text-transform: none;
+            line-height: 1.7;
+            letter-spacing: 0;
+            color: #777;
+
+        }
+        .service_accordion{
+            .accordion{
+                .accordion-item{
+                   margin-bottom: 10px;
+                   padding: 2px 20px;
+                   border-radius: 5px;
+                   border: 1px solid #e6e8eb;
+    
+    
+                   .accordion-header{
+                     
+                       font-weight: 400;
+                       .accordion-button{
+                           width: 100%;
+                           font-size: 13px;
+                           font-weight: 500;
+                           i{
+                               font-size: 12px;
+                           }
+                       }
+                   }
+                   .accordion-header > a:before {
+                       float: right !important;
+                       font-family: FontAwesome;
+                       content:"\f068";
+                       padding-right: 5px;
+                   }
+                   .accordion-header > a.collapsed:before {
+                       float: right !important;
+                       content:"\f067";
+                   }
+                   .accordion-header > a:hover, 
+                   .accordion-header > a:active, 
+                   .accordion-header > a:focus  {
+                       text-decoration:none;
+                   }
+    
+                   .accordion-collapse{
+           transition: all 0.3s ease;
+    
+                   }
+                   .accordion-body{
+                       font-size: 13px;
+                       padding-top: 15px;
+                       color: var(--p-color);
+                   }
+                }
+            } 
+           }
+    }
+   
+
+}
+}

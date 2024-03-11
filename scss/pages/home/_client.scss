@@ -1,0 +1,65 @@
+.client{
+    padding-bottom: 70px;
+    padding-top: 70px;
+
+    .client_slider{
+      .Partner_img{
+          max-width: 200px;
+          img{
+              width: 100%;
+          }
+      }
+    
+        .owl-carousel {
+            position: relative;
+       
+
+
+
+            .owl-dots {
+             margin-top: 50px;
+             width: 100%;
+                display: flex;
+                justify-content: center;
+                .owl-dot span {
+                    width: 10px !important;
+                    height: 10px !important;
+                    margin: 5px 5px !important;
+                    background:transparent; 
+                    display: block;
+                    border: 2px solid;
+                    border-color:#d4d4d4; 
+                    transition: opacity 0.2s ease;
+                    border-radius: 50% !important;
+                }
+                .owl-dot {
+                    &.active {
+                        span{
+                            border-color:#535353 ;
+                            transition: height .3s ease;
+                            transition-property: height;
+                            transition-duration: 0.3s;
+                            transition-timing-function: ease;
+                            transition-delay: 0s;
+                            background: linear-gradient(to right, black 50%, white 50%);
+                            background-size: 200% 100%;
+                            background-position: right bottom;
+                            transition: all .5s ease-out;
+
+                        }
+                    }
+                  }
+            }
+
+
+
+
+
+
+         
+          
+         
+          }
+            
+    }
+}

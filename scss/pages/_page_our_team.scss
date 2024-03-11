@@ -1,0 +1,29 @@
+.hdd {
+    padding-top: 30px;
+    position: relative;
+    text-align: center;
+    &::after {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:20px;
+        height: 1px;
+        width: 100%;
+        background: #f0f0f0;
+        content: "";
+        z-index: -1;
+        margin: 0 auto;
+    }
+    span {
+        background-color: var(--white-color);
+        font-size: 25px;
+       
+        font-weight: normal;
+        position: absolute;
+        color: var(--p-color2);
+        padding: 0 10px;
+        top: 0px;
+        transform: rotate(180deg);
+        //   transform-origin: 20% 40%;
+    }
+}

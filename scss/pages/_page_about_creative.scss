@@ -1,0 +1,129 @@
+.about_me_creative{
+
+    // margin-top: 89px;
+        .img_wraper_fixed{
+            width: 100%;
+            height: 100vh; // experiment with this value, try changing to 110vh
+            max-height: 100%;
+            overflow: auto;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 89px;
+            background-image: url(./../../Images/about_us/about_creative.jpg);
+            background-position: center;
+            background-size: cover;
+            
+
+@media screen and(max-width:992px) {
+    height: 60vh;
+}
+
+        .content{
+            position: absolute;
+            bottom: 15%;
+            left: 0;
+           width: 100%;
+            .name{
+               color: var(--white-color);
+                font-size: 110px;
+                font-weight: 600;
+                opacity: 0.7;
+                
+@media screen and(max-width:992px) {
+    font-size: 40px;
+    text-align: center;
+
+}
+            }
+        }
+             
+         }
+
+
+         .non_fixed_right{
+             padding: 20px;
+             h4{
+padding-top: 100px;
+@media screen and(max-width:992px) {
+padding-top: 50px; 
+}
+             }
+             .position{
+                 color: var(--mars-color-1);
+                 margin-bottom:5px;
+                 margin-top: 15px;
+                 font-size: 14px;
+             }
+
+             .p_wrapper, .p_wrapper2{
+                border: 1px solid transparent;
+                border-bottom-color: var(--border-color) !important;
+            
+                 p{
+                    font-size: .8rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    text-transform: none;
+                    line-height: 1.7;
+                    letter-spacing: 0;
+                    color: #777;
+                 }
+             }
+
+             .p_wrapper2{
+                 margin-top: 15px;
+            
+             }
+
+             .progress_wrapp {
+                margin-top: 30px;
+                padding-bottom: 15px;
+                border: 1px solid transparent;
+                border-bottom-color: var(--border-color) !important;
+
+                .progress_heading {
+                    justify-content: space-between;
+                    .name {
+                        font-size: 12px;
+                        font-weight: 600;
+                    }
+                    .percent {
+                        font-size: 11px;
+                        color: var(--p-color2);
+                    }
+                }
+                .progress {
+                    margin-bottom: 10px;
+                    border-radius: 0;
+                }
+                .progress-bar {
+                    width: 0;
+                    color: var(--sub-color-2);
+                    background-color: var(--sub-color-2);
+                }
+            }
+
+            .footer_bottom {
+                padding: 30px 0 30px 0;
+           
+                p {
+                    line-height: 1.6;
+                    font-size: 13px;
+                    color: var(--p-color);
+                    text-decoration: none;
+                    padding-bottom: 0;
+                    margin-bottom: 0;
+                    a {
+                        line-height: 1.6;
+                        font-size: 12px;
+                        color: var(--p-color);
+                        text-decoration: none;
+                        &:hover {
+                            color: var(--sub-color-2);
+                        }
+                    }
+                }
+            }
+         }
+    }
+    

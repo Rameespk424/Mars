@@ -1,0 +1,32 @@
+.coloumn_layout{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    .wrapper{
+        .content{
+            padding-top: 30px;
+            p{
+                margin: 0 0px 40px 0px;
+    line-height: 1.6;
+    font-size: 13px;
+    color: var(--p-color2);
+            }
+
+        }
+
+        
+        .col_style{
+            h5{
+        font-size: 13px;
+                color: #1f1f1f;
+                margin: 0;
+                letter-spacing: .5px;
+                padding-bottom: 15px;
+            }
+        }
+
+        .col_six{
+padding-top: 20px;
+        }
+        
+    }
+}

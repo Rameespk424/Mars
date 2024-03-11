@@ -1,0 +1,102 @@
+.page_error{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    .error_wrapper{
+        margin-top: 20px;
+        .four{
+font-size: 17em;
+font-weight: 800;
+opacity: 0.1;
+text-align: right;
+@media screen and(max-width:768px) {
+    font-size: 12em;
+    font-weight: 700;
+    opacity: 0.1;
+    text-align: left;
+          }
+          @media screen and(max-width:576px) {
+            font-size: 10em;
+            font-weight: 700;
+            opacity: 0.1;
+            text-align: left;
+                  }
+        }
+    }
+    .unavilable{
+        padding-top: 100px;
+     margin-left: -50px;
+     @media screen and(max-width:768px) {
+        padding-top: 0px;
+        margin-left: 0px;
+              }
+        .wrapper{
+            border: 1px solid;
+            border-color: transparent;
+            border-bottom-color:var(--border-color) ;
+            h3{
+                font-size: 45px!important;
+                font-weight: 800;
+                line-height: 1.1;
+                color: var(--mars-color-2);
+                margin-bottom: 20px;
+                @media screen and(max-width:576px) {
+                  font-size: 30px !important;
+                          }
+            }
+            p{
+                line-height: 1.6;
+                font-size: 13px;
+                color: var(--p-color2);
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .footer_mailbox{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        p{
+            line-height: 1.6;
+    font-size: 13px;
+    color: var(--p-color2);
+        }
+        .input-group{
+            width: 50%;
+        }
+        .form-control {
+            font-size: 12px;
+            padding: 17px 14px;
+        }
+    }
+}
+.error_bg{
+    background-image: url(./../../Images/parallax/parallax.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .error_wrapper{
+    margin-top: 40px;
+    margin-bottom: 60px;
+        .four{
+opacity: 1 !important;
+color: #ededed;
+        }
+    }
+    .unavilable{
+        .wrapper{
+            h3{
+color: var(--white-color) !important;
+            }
+            p{
+                color: var(--white-color) !important;
+            }
+        }
+    }
+    .footer_mailbox{
+        padding-top: 15px !important;
+        p{
+color: var(--white-color) !important;
+        }
+    }
+}

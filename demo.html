@@ -1,0 +1,264 @@
+.<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs"
+    Inherits="odoo_odoo_books_odoo_16_accounting_book_ch3_Configuring_Taxes_Default" %>
+
+
+
+    <%@ Register Src="~/userControl/header.ascx" TagName="header" TagPrefix="uc1" %>
+        <%@ Register Src="~/userControl/footer.ascx" TagName="footer" TagPrefix="uc2" %>
+            <%@ Register Src="~/userControl/book-header.ascx" TagName="bookheader" TagPrefix="uc3" %>
+                <!DOCTYPE html>
+                <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+                <head id="Head1" runat="server">
+                    <meta charset="UTF-8" />
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                    <meta name="Theme Version" content="" />
+                    <meta name="Child Theme" content="true" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1" />
+                    <meta name="description"
+                        content="The Odoo platform provides a separate calendar module that will give the insight to plan all the activities related to the company, schedule meetings, and tasks effectively" />
+                    <meta name="keywords"
+                        content="odoo book, odoo erp book, odoo v13 book, odoo guide, odoo erp, odoo pos, odoo open source, odoo v13 community book, cybrosys, odoo partner, odoo gold partner, cybrosys technologies, odoo calendar community book, odoo calendar community" />
+                    <meta name="robots" content="INDEX, FOLLOW" />
+                    <title>Odoo 16 Sales - Odoo v16 Community Edition Book</title>
+                    <!-- Open Graph data -->
+                    <meta property="og:type" content="website">
+                    <meta property="og:title" content="Odoo 13 Calendar - Odoo v13 Community Edition Book">
+                    <meta property="og:description"
+                        content="The Odoo platform provides a separate calendar module that will give the insight to plan all the activities related to the company, schedule meetings, and tasks effectively" />
+                    <meta property="og:url"
+                        content="https://www.cybrosys.com/odoo/odoo-books/community-edition-v13/calendar/">
+                    <meta property="og:image"
+                        content="https://www.images.cybrosys.com/images/odoo13-book-community-edition.png">
+                    <meta property="fb:app_id" content="1220643824631920">
+                    <!-- Twitter Card data -->
+                    <meta name="twitter:card" content="summary_large_image">
+                    <meta name="twitter:site" content="@Cybrosys">
+                    <meta name="twitter:title" content="Odoo 13 Calendar - Odoo v13 Community Edition Book">
+                    <meta name="twitter:description"
+                        content="The Odoo platform provides a separate calendar module that will give the insight to plan all the activities related to the company, schedule meetings, and tasks effectively" />
+                    <meta name="twitter:image"
+                        content="https://www.images.cybrosys.com/images/odoo13-book-community-edition.png">
+                    <meta name="twitter:image:alt" content="Odoo 13 Calendar - Odoo v13 Community Edition Book">
+                    <link rel="canonical"
+                        href="https://www.cybrosys.com/odoo/odoo-books/community-edition-v13/calendar/" />
+                    <link rel="shortcut icon" type="image/x-icon"
+                        href="https://www.images.cybrosys.com/images/favicon.ico" />
+                    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+                    <link rel="stylesheet"
+                        href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+                    <script
+                        src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+                    <link rel='stylesheet'
+                        href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+                    <link href="https://www.images.cybrosys.com/css/odoo-book-v14.css" rel="stylesheet"
+                        type="text/css" />
+                    <link href="../../../../../css/odoo-book-v14-optimized.css" rel="stylesheet" type="text/css" />
+                    <!-- Google Tag Manager -->
+                    <script
+                        defer>        (function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = !0; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f) })(window, document, 'script', 'dataLayer', 'GTM-54BSZHH');</script>
+                    <!-- End Google Tag Manager -->
+                </head>
+
+                <body class="body-green">
+                    <!-- Google Tag Manager (noscript) -->
+                    <noscript>
+                        <iframe loading="lazy" src="https://www.googletagmanager.com/ns.html?id=GTM-54BSZHH" height="0"
+                            width="0" style="display: none; visibility: hidden"></iframe>
+                    </noscript>
+                    <!-- End Google Tag Manager (noscript) -->
+                    <form id="form1" runat="server">
+                        <uc1:header ID="header111" runat="server" />
+                        <div class="for-mob mar-8">
+                            <div class="page-wrapper">
+                                <div class="wrapper odoo14book">
+                                    <div class="sidebar">
+                                        <div class="row" id="body-row">
+                                            <div id="sidebar-container" class="sidebar-expanded">
+                                                <ul class="list-group">
+                                                    <li><a href="https://www.cybrosys.com/odoo/odoo-books/community-edition-v16/"
+                                                            class="list-group-item list-group-item-action flex-column align-items-start">
+                                                        </a></li>
+                                                    <li><a href="#crm" data-toggle="collapse" aria-expanded="false"
+                                                            class="list-group-item list-group-item-action flex-column align-items-start">
+                                                            <div
+                                                                class="d-flex w-100 justify-content-start align-items-center">
+                                                                <span class="menu-collapsed">Chapter: 3 - Configuration
+                                                                    tools in Odoo 16 Accounting module</span>
+                                                                <span class="submenu-icon ml-auto"></span>
+                                                            </div>
+                                                        </a>
+                                                        <div id='crm' class="collapse sidebar-submenu">
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch3/configuring-taxes/"
+                                                                class="list-group-item list-group-item-action">
+                                                                <span class="menu-collapsed">Configuring Taxes</span>
+                                                            </a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch3/defining-horizontal-groups/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Defining Horizontal
+                                                                    Groups</span>
+                                                            </a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch3/defining-journals/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Defining Journals </span></a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/anglosaxon-accounting/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Currency Management</span>
+                                                            </a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/reconciliation/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Fiscal Position
+                                                                </span></a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/accounting-methods/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Online Synchronization
+                                                                </span> </a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/terms-used-in-accounting/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Payment Options
+                                                                </span> </a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/terms-used-in-accounting/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Management Options
+                                                                </span> </a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/terms-used-in-accounting/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Analytical Accounting
+                                                                </span> </a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/terms-used-in-accounting/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Configuring Invoicing
+                                                                </span> </a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/terms-used-in-accounting/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Configuring Bank Payments
+                                                                </span> </a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/terms-used-in-accounting/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Reconciliation Models
+                                                                </span> </a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/terms-used-in-accounting/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Button to Generate
+                                                                    Counterpart Entry
+                                                                </span> </a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/terms-used-in-accounting/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Rule to Suggest Counterpart
+                                                                    Entry
+                                                                </span> </a>
+                                                            <a href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/terms-used-in-accounting/"
+                                                                class="list-group-item list-group-item-action"><span
+                                                                    class="menu-collapsed">Rule to Match Invoices/Bills
+                                                                </span> </a>
+
+
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main" id="book-body">
+                                        <div class="odoo-book-navigation nav-move-right">
+                                            <a class="navigation-btn"
+                                                href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/terms-used-in-accounting/">
+                                                Next ></a>
+                                        </div>
+                                        <div class="book-header">
+                                            <h1>Accounting Methods</h1>
+                                        </div>
+
+
+
+                                        <div class="book-body">
+
+                                            <p>
+                                                As we discussed, the Odoo platform employs the Double-entry bookkeeping
+                                                system in its Accounting module; this method is very convenient for
+                                                keeping every journal entry balanced automatically. As a result, the sum
+                                                of credit will always be equal to the sum of debits.
+                                            </p>
+                                            <p>
+                                                In accordance with the timing of recording revenues and expenses,
+                                                Accounting Methods are classified into two groups.
+                                            <ol>
+
+                                                <li>Cash Basis</li>
+                                                <li>Accrual Basis</li>
+
+                                            </ol>
+
+                                            </p>
+
+                                            <p>
+                                                So Cash Basis and Accrual Basis accounting are the two different methods
+                                                for recording tax information on accounting transactions. The recording
+                                                of the transaction (revenue and expense) time is the notable difference
+                                                between these two methods. Let us have a look at these two methods.
+                                            </p>
+
+
+                                            <h4 class="subhead-level-4" id="H3">
+                                                Accrual Basis</h4>
+                                            <p>
+                                                Accrual Basis can be considered the default Accounting method that
+                                                records tax information on revenue and expenses immediately after the
+                                                generation of revenue or expense. This method available in Odoo is handy
+                                                for recording the taxes in the accounting ledgers and tax reports at the
+                                                moment it occurred.
+                                            </p>
+
+
+
+                                            <h4 class="subhead-level-4" id="H1">
+                                                Cash Basis Method</h4>
+                                            <p>
+                                                In the Cash Basis Method, tax on revenue or expenses is reported after
+                                                receiving cash from customers or after cash payment to suppliers. In
+                                                this case, the tax on revenues is recorded only when the payments are
+                                                acquired. Also, the expenses are reported only when the payment has been
+                                                made to suppliers or employees. The Cash Basis option can be activated
+                                                from the Accounting Configuration Settings. The Cash basis accounting
+                                                will also affect the taxes that can also be created using the same
+                                                method in association with the invoice or payment.
+                                            </p>
+
+
+                                            <h4 class="subhead-level-4" id="H2">
+                                                Cash Basis Method</h4>
+                                            <p>In the Cash Basis Method, tax on revenue or expenses is reported after
+                                                receiving cash from customers or after cash payment to suppliers. In
+                                                this case, the tax on revenues is recorded only when the payments are
+                                                acquired. Also, the expenses are reported only when the payment has been
+                                                made to suppliers or employees. The Cash Basis option can be activated
+                                                from the Accounting Configuration Settings. The Cash basis accounting
+                                                will also affect the taxes that can also be created using the same
+                                                method in association with the invoice or payment.
+                                            </p>
+
+
+
+
+
+
+
+
+
+
+                                            <div class="odoo-book-navigation nav-move-right">
+                                                <a class="navigation-btn"
+                                                    href="https://www.cybrosys.com/odoo/odoo-books/odoo-16-accounting-book/ch1/reconciliation/"> < Prev </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <uc2:footer ID="footer" runat="server" />
+                            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+                            <script
+                                src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js'></script>
+                    </form>
+                </body>
+
+                </html>

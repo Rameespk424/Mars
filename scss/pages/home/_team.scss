@@ -1,0 +1,120 @@
+.team {
+    padding-top: 70px;
+    background-color: var(--section-bg);
+    padding-bottom: 70px;
+    .wrapper {
+        .card-deck {
+
+            @media screen and (max-width:768px) {
+    display: block;
+    column-count: 2;
+            }
+
+            @media screen and (max-width:576px) {
+                display: block;
+                column-count: 1;
+                        }
+
+            .card-img-top {
+                border-radius: 0;
+            }
+            .card {
+                position: relative;
+                @media screen and (max-width:768px) {
+                   margin-bottom: 15px;
+                            }
+                border: 0;
+                .card-body {
+                    text-align: center;
+                    .blog_date {
+                        padding-bottom: 10px;
+                        span {
+                            color: var(--p-color2);
+                            font-size: 12px;
+                        }
+                    }
+
+                    .title {
+                        text-decoration: none;
+                    }
+                    .card-title {
+                        font-size: 16px;
+                        letter-spacing: -0.1px;
+                        line-height: 23px;
+                        margin-bottom: 0;
+                        color: #444;
+                        font-weight: 600;
+                    }
+                    .card-text {
+                        line-height: 1.6;
+                        font-size: 13px;
+                        color: var(--p-color2);
+                    }
+                    .card-footer {
+                        border: none;
+                    
+                        .team_icon {
+                            text-align: center;
+                            display: flex;
+                            justify-content: space-evenly;
+                            .btn {
+                                align-items: center;
+                                background-color: #ffffff;
+                                border: 1px solid rgb(77, 77, 77) !important;
+                                border-radius: 50px;
+                                display: inline-flex;
+                                padding: 8px 10px;
+                                transition: all 0.5s ease;
+                              }
+                              .btn:hover span {
+                                transform: translateX(4px);
+                                opacity: 1;
+                                position: relative;
+                              }
+                              .btn:hover i {
+                                transition: 0.9s;
+                                transform: rotateY(360deg);
+                            }
+                              .btn span {
+                                color: rgb(82, 82, 82);
+                                transform: translateX(20px);
+                                transition: all 0.5s ease;
+                                opacity: 0;
+                                position: absolute;
+                                font-size: 12px;
+                                text-transform: uppercase;
+                              }
+                              .btn i {
+                                color: rgb(104, 104, 104);
+                                font-size: 12px;
+                              }
+        
+//                             a {
+//                                 display: block;
+//                                 overflow: hidden;
+//                                 position: relative;
+//                                 i {
+//                                     color: #4c5667;
+//                                     border-radius: 50%;
+//                                     border-color: #e2e2e2;
+//                                     border: 1px solid;
+//                                     padding: 10px;
+
+// &:hover{
+//     display: block;
+// }
+
+//                                 }
+//                                 span {
+//                                     font-size: 12px;
+//                                     display: none;
+//                                 }
+//                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

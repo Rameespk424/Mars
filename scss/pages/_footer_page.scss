@@ -1,0 +1,35 @@
+.about_footer{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: var(--white-color);
+.abt_features{
+    .card-deck{
+        @media screen and(max-width:768px) {
+            flex-direction: column !important;
+        }
+    }
+    .card{
+        background: transparent;
+        border: transparent;
+        .card-body{
+            background: transparent;
+            .card-title{
+                font-size:16px;
+                line-height: 1.68421053em;
+                font-weight: 600;
+                letter-spacing: .5px;
+            }
+            .card-text{
+                font-size: .8rem;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: #777;
+            }
+        }
+    }
+}
+
+}
