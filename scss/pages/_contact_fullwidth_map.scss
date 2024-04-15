@@ -2,7 +2,7 @@
   .wrapper {
     .map_area {
       height: 500px !important;
-      @media screen and(max-width:768px) {
+      @media screen and (max-width:768px) {
         height: 300px !important;
       }
       .map_div {
@@ -13,11 +13,11 @@
 .contact_fullwidth_map {
   .wrapper {
     padding: 100px 0px 150px 0px;
-    @media screen and(max-width:992px) {
+    @media screen and (max-width:992px) {
       padding: 80px 0px 100px 0px;
     }
     .address {
-      @media screen and(max-width:992px) {
+      @media screen and (max-width:992px) {
         padding-bottom: 50px;
       }
       h4 {
@@ -36,10 +36,10 @@
       .address_details {
         display: flex;
         justify-content: space-between;
-        @media screen and(max-width:992px) {
+        @media screen and (max-width:992px) {
           display: block;
         }
-        @media screen and(max-width:992px) {
+        @media screen and (max-width:992px) {
           .right {
             padding-bottom: 20px;
           }
@@ -84,7 +84,7 @@
     }
     .contact_form {
       padding-left: 20px;
-      @media screen and(max-width:992px) {
+      @media screen and (max-width:992px) {
         padding-left: 0px;
       }
       h4 {
@@ -117,14 +117,14 @@
       display: flex;
       padding-left: 0;
       margin-bottom: 0;
-      @media screen and(max-width:768px) {
+      @media screen and (max-width:768px) {
         flex-wrap: wrap;
       }
       li {
         padding-bottom: 0;
         overflow: hidden;
         margin-left: 10px;
-        @media screen and(max-width:768px) {
+        @media screen and (max-width:768px) {
           margin-top: 10px !important;
             
           }
@@ -156,7 +156,7 @@
       }
       li:nth-child(1) {
         margin-left: 0 !important;
-        @media screen and(max-width:768px) {
+        @media screen and (max-width:768px) {
         margin-left: 10px !important;
           
         }

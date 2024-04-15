@@ -12,15 +12,15 @@
         background-color: var(--white-color);
         margin: 0% 15%;
 
-        @media screen and(max-width:1080px) {
+        @media screen and (max-width:1080px) {
             margin: 0% 13%;
         }
-        @media screen and(max-width:992px) {
+        @media screen and (max-width:992px) {
             margin: 0;
         }
         .about_boxed {
             padding: 80px 30px;
-            @media screen and(max-width:992px) {
+            @media screen and (max-width:992px) {
                 padding: 80px 0px;
             }
             .left {
@@ -46,7 +46,7 @@
             .right {
                 padding-left: 20px;
 
-                @media screen and(max-width:992px) {
+                @media screen and (max-width:992px) {
                     margin-top: 40px;
                     padding-left: 0px;
                 }
@@ -72,7 +72,7 @@
         .purchase {
             padding: 50px 70px;
             background-color: var(--section-bg);
-            @media screen and(max-width:992px) {
+            @media screen and (max-width:992px) {
                 padding: 50px 0px;
             }
             .right {
@@ -80,14 +80,14 @@
                 letter-spacing: 1px;
                 font-weight: 400;
                 padding-left: 40px;
-                @media screen and(max-width:992px) {
+                @media screen and (max-width:992px) {
                     padding-left: 0px;
                 }
             }
             .left {
                 display: flex;
                 justify-content: center;
-                @media screen and(max-width:992px) {
+                @media screen and (max-width:992px) {
                     display: block;
                     padding-top: 20px;
                     margin-top: 20px;
@@ -106,10 +106,10 @@
             .left {
                 margin-top: 80px;
                 margin-left: 50px;
-                @media screen and(max-width:992px) {
+                @media screen and (max-width:992px) {
                     margin-left:0px;
                 }
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                     margin-top:40px;
                 }
                 h4 {
@@ -131,7 +131,7 @@
                 position: relative;
                 height: 70vh;
                 overflow: hidden;
-                @media screen and(max-width:992px) {
+                @media screen and (max-width:992px) {
                
                    height: 125vh;
                 }
@@ -147,7 +147,7 @@
                     #counter-section-container {
                         width: 100%;
                         text-align: center;
-                @media screen and(max-width:992px) {
+                @media screen and (max-width:992px) {
                 padding-top: 50px;
                 }
                     }
@@ -157,7 +157,7 @@
                         display: grid;
                         grid-template-columns: 2fr 2fr;
 
-                        @media screen and(max-width:768px) {
+                        @media screen and (max-width:768px) {
                         grid-template-columns: 1fr;
                            }
 
@@ -172,12 +172,12 @@
                         text-align: center;
                         color: var(--white-color);
                         position: relative;
-                        @media screen and(max-width:992px) {
+                        @media screen and (max-width:992px) {
                          margin-left: 0px !important;
                          text-align: left;
                         }
 
-                        @media screen and(max-width:768px) {
+                        @media screen and (max-width:768px) {
                             text-align: center;
 
                                }
@@ -191,10 +191,10 @@
                             left: 50%;
                             transform: translate(-50%, -50%);
                             bottom: 68px;
-                            @media screen and(max-width:992px) {
+                            @media screen and (max-width:992px) {
                          left: 0;
                             }
-                            @media screen and(max-width:992px) {
+                            @media screen and (max-width:992px) {
                                 left: 50%;
         transform: translate(-50%, -50%);
                             
@@ -212,7 +212,7 @@
                         color: var(--white-color);
                         font-weight: 600;
 
-                        @media screen and(max-width:992px) {
+                        @media screen and (max-width:992px) {
                         font-weight: 700;
                         font-size: 55px;
                         }
@@ -376,14 +376,14 @@
 
             .wrapper {
                 padding: 100px 30px 150px 30px;
-                @media screen and(max-width:576px) {
+                @media screen and (max-width:576px) {
                 padding: 80px 0px 100px 0px;
                     
                     
                     }
                 .address {
                     padding-right: 40px;
-                    @media screen and(max-width:768px) {
+                    @media screen and (max-width:768px) {
                     padding-right: 0;
                     
                     }
@@ -405,7 +405,7 @@
                         justify-content: space-between;
 
 
-@media screen and(max-width:576px) {
+@media screen and (max-width:576px) {
     display: block;
     padding-top: 20px;
 }
@@ -441,7 +441,7 @@
                         }
 
                         .left{
-                            @media screen and(max-width:576px) {
+                            @media screen and (max-width:576px) {
                              padding-top: 20px;
                             }
                         }
@@ -460,7 +460,7 @@
                         display: flex;
                         padding-left: 0;
                         margin-bottom: 0;
-                        @media screen and(max-width:576px) {
+                        @media screen and (max-width:576px) {
                            flex-flow: wrap;                
                            }
 
@@ -468,7 +468,7 @@
                             padding-bottom: 0;
                             overflow: hidden;
                             margin-left: 10px;
-                            @media screen and(max-width:768px) {
+                            @media screen and (max-width:768px) {
                                 margin-left: 5px;    
                                 margin-top: 10px;               
                                }
@@ -499,7 +499,7 @@
                                     font-size: 13px;
                                     padding: 0px 9px;
                                     display: block;
-                                    @media screen and(max-width:768px) {
+                                    @media screen and (max-width:768px) {
                                       font-size: 10px;                   
                                        }
                                 }
@@ -508,7 +508,7 @@
 
                         li:nth-child(1) {
                             margin-left: 0 !important;
-                            @media screen and(max-width:768px) {
+                            @media screen and (max-width:768px) {
                                 margin-left: 5px !important;    
                                               
                                }
@@ -586,7 +586,7 @@
                 padding-bottom: 10px;
             }
             .mailbox {
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                  margin-left: 15px;                   
                 }
                 .input-group {
@@ -596,10 +596,10 @@
                     margin: auto;
                     background-color: var(--white-color);
                     border-radius: 5px;
-                    @media screen and(max-width:992px) {
+                    @media screen and (max-width:992px) {
                         width: 80%;
                     }
-                    @media screen and(max-width:768px) {
+                    @media screen and (max-width:768px) {
                         width: 100%;
                         
                     }

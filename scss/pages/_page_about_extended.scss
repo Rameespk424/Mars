@@ -13,7 +13,7 @@
             .p_wrapper{
                 display: flex;
                 padding-top: 20px;
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                    display: block;
                           }
                 .right_p, .left_p{
@@ -29,13 +29,13 @@
                 }
                 .right_p{
                    padding-right: 30px;
-                   @media screen and(max-width:768px) {
+                   @media screen and (max-width:768px) {
                     padding-right: 0px;
                            }
                 }
                 .left_p{
                     margin-left: 30px;
-                    @media screen and(max-width:768px) {
+                    @media screen and (max-width:768px) {
                     margin-left: 0px;
                                }
                     p{
@@ -49,7 +49,7 @@
 .about_work{
 display: flex;
 color: var(--white-color);
-@media screen and(max-width:768px) {
+@media screen and (max-width:768px) {
     display: block;
            }
 .work_wrapper1{
@@ -124,14 +124,14 @@ color: var(--white-color);
 .slider_wrapper{
     padding: 50px 80px 0px 80px;
     display: flex;
-    @media screen and(max-width:992px) {
+    @media screen and (max-width:992px) {
         display: block;
     padding: 50px 0px 0px 0px;
 
     }
     .Partner_img{
         max-width: 160px;
-        @media screen and(max-width:992px) {
+        @media screen and (max-width:992px) {
          margin: auto;
         }
         img{
@@ -142,7 +142,7 @@ color: var(--white-color);
     .slider_info{
 text-align: left;
 padding-left: 50px;
-@media screen and(max-width:992px) {
+@media screen and (max-width:992px) {
     text-align: center !important;
     padding-top: 20px;
     padding-left: 0;
@@ -155,7 +155,7 @@ padding-left: 50px;
     font-weight: 400;
 margin-top: 10px;
     text-align: left;
-    @media screen and(max-width:992px) {
+    @media screen and (max-width:992px) {
         text-align: center ;
       
        }
@@ -165,7 +165,7 @@ margin-top: 10px;
     color: var(--mars-color-1);
     font-weight: 700;
     font-size: 14px;
-    @media screen and(max-width:992px) {
+    @media screen and (max-width:992px) {
         text-align: center;
        }
 }
@@ -173,7 +173,7 @@ margin-top: 10px;
     font-size: 12px;
     color: (--p-color);
     padding-top: 10px;
-    @media screen and(max-width:992px) {
+    @media screen and (max-width:992px) {
         text-align: center;
        }
     span{

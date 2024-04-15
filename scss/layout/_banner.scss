@@ -182,13 +182,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    @media screen and(max-width:576px) {
+    @media screen and (max-width:576px) {
         height: 135vh;
      }
-     @media screen and(max-width:415px) {
+     @media screen and (max-width:415px) {
         height: 150vh;
      }
-     @media screen and(max-width:370px) {
+     @media screen and (max-width:370px) {
         height: 150vh;
      }
     &:after {
@@ -199,13 +199,13 @@
         top: 0;
         left: 0;
         background: #00000063 !important;
-        @media screen and(max-width:576px) {
+        @media screen and (max-width:576px) {
             height: 135vh;
          }
-         @media screen and(max-width:415px) {
+         @media screen and (max-width:415px) {
             height: 150vh;
          }
-         @media screen and(max-width:370px) {
+         @media screen and (max-width:370px) {
             height: 150vh;
          }
     }
@@ -221,15 +221,15 @@
         z-index: 999;
         display: flex;
     
-         @media screen and(max-width:576px) {
+         @media screen and (max-width:576px) {
             height: 135vh;
         margin-top: 0;
         padding: 0px 15px;
      }
-     @media screen and(max-width:415px) {
+     @media screen and (max-width:415px) {
         height: 150vh;
      }
-     @media screen and(max-width:370px) {
+     @media screen and (max-width:370px) {
         height: 150vh;
      }
         // .content {
@@ -238,10 +238,10 @@
 
         .caption {
             margin-top: 300px;
-            @media screen and(max-width:992px) {
+            @media screen and (max-width:992px) {
                 margin-top: 200px;
             }
-            @media screen and(max-width:576px) {
+            @media screen and (max-width:576px) {
                 margin-top: 140px;
             }
             .do_this {
@@ -270,7 +270,7 @@
                 margin-bottom: 30px;
                 margin: 10px 0 20px 0;
 
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                    font-size:50px;
                 }
             }
@@ -279,7 +279,7 @@
         .specs {
             margin-top: 100px;
 
-            @media screen and(max-width:768px) {
+            @media screen and (max-width:768px) {
                 margin-top: 70px;
              }
             .specs_info {
@@ -312,7 +312,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    @media screen and(max-width:992px) {
+    @media screen and (max-width:992px) {
       height: 80vh;
     }
     &:after {
@@ -323,7 +323,7 @@
         top: 0;
         left: 0;
         background: #00000063 !important;
-        @media screen and(max-width:992px) {
+        @media screen and (max-width:992px) {
             height: 80vh;
           }
     }
@@ -339,7 +339,7 @@
         z-index: 999;
         display: flex;
         justify-content: center;
-        @media screen and(max-width:992px) {
+        @media screen and (max-width:992px) {
             height: 80vh;
           }
         .caption {
@@ -371,14 +371,14 @@
                 font-weight: 700;
                 line-height: 80px;
                 margin: 10px 0 20px 0;
-                @media screen and(max-width:992px) {
+                @media screen and (max-width:992px) {
                     font-size: 50px;
                 font-weight: 700;
                 line-height: 50px;
                 margin: 10px 0 20px 0; 
                 }
 
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                     font-size: 35px;
                 font-weight: 700;
                 line-height: 50px;
@@ -504,7 +504,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    @media screen and(max-width:992px) {
+    @media screen and (max-width:992px) {
         height: 80vh;
       }
       &:after {
@@ -515,7 +515,7 @@
           top: 0;
           left: 0;
           background: #00000063 !important;
-          @media screen and(max-width:992px) {
+          @media screen and (max-width:992px) {
               height: 80vh;
             }
       }
@@ -531,7 +531,7 @@
           z-index: 999;
           display: flex;
           justify-content: center;
-          @media screen and(max-width:992px) {
+          @media screen and (max-width:992px) {
               height: 80vh;
             }
           .caption {
@@ -563,14 +563,14 @@
                   font-weight: 700;
                   line-height: 80px;
                   margin: 10px 0 20px 0;
-                  @media screen and(max-width:992px) {
+                  @media screen and (max-width:992px) {
                       font-size: 50px;
                   font-weight: 700;
                   line-height: 50px;
                   margin: 10px 0 20px 0; 
                   }
   
-                  @media screen and(max-width:768px) {
+                  @media screen and (max-width:768px) {
                       font-size: 35px;
                   font-weight: 700;
                   line-height: 50px;
@@ -609,7 +609,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    @media screen and(max-width:992px) {
+    @media screen and (max-width:992px) {
         height: 80vh;
       }
     &:after {
@@ -621,7 +621,7 @@
         left: 0;
         z-index: 1;
         background: #00000063 !important;
-        @media screen and(max-width:992px) {
+        @media screen and (max-width:992px) {
             height: 80vh;
           }
     }
@@ -637,7 +637,7 @@
         z-index: 2;
         display: flex;
         justify-content: center;
-        @media screen and(max-width:992px) {
+        @media screen and (max-width:992px) {
             height: 80vh;
           }
 
@@ -671,14 +671,14 @@
                 line-height: 80px;
                 margin-bottom: 30px;
                 margin: 10px 0 20px 0;
-                @media screen and(max-width:992px) {
+                @media screen and (max-width:992px) {
                     font-size: 50px;
                 font-weight: 700;
                 line-height: 50px;
                 margin: 10px 0 20px 0; 
                 }
 
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                     font-size: 35px;
                 font-weight: 700;
                 line-height: 50px;
@@ -1495,7 +1495,7 @@ height: 50vh;
             justify-content: center;
             align-items: center;
 
-            @media screen and(max-width:768px) {
+            @media screen and (max-width:768px) {
            height: 80vh;
                   }
             img {
@@ -1514,7 +1514,7 @@ height: 50vh;
                 top: 0;
                 left: 0;
                 background: #0000004b !important;
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                     height: 80vh;
                            }
             }
@@ -1524,7 +1524,7 @@ height: 50vh;
                 color: var(--white-color);
                 text-align: start;
                 padding: 0px 60px;
-                @media screen and(max-width:992px) {
+                @media screen and (max-width:992px) {
                padding: 0 30px;
                       }
                 h1 {
@@ -1533,12 +1533,12 @@ height: 50vh;
                     line-height: 80px;
                     margin-bottom: 30px;
 
-                    @media screen and(max-width:992px) {
+                    @media screen and (max-width:992px) {
                     font-size: 55px;
                     line-height: 70px;
                       }
 
-                      @media screen and(max-width:768px) {
+                      @media screen and (max-width:768px) {
                         font-size: 45px;
                         line-height: 50px;
                           }
@@ -1774,9 +1774,9 @@ height: 50vh;
                 font-size: 70px;
                 padding-bottom: 10px;
                 font-weight: 700;
-                @media screen and(max-width:992px) {
+                @media screen and (max-width:992px) {
                     font-size: 50px;
-                } @media screen and(max-width:768px) {
+                } @media screen and (max-width:768px) {
                     font-size: 40px;
                 }
             }
@@ -1949,7 +1949,7 @@ height: 50vh;
                 font-size: 40px;
                 text-transform: uppercase;
                 padding-bottom: 10px;
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                    font-size: 30px;
                       }
             }

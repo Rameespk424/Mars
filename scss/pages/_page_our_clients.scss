@@ -1,12 +1,12 @@
 .page_clients {
     padding-bottom: 100px;
-    @media screen and(max-width:576px) {
+    @media screen and (max-width:576px) {
     
         padding-bottom: 50px;
     }
     .wrapper {
         margin-top: 100px;
-        @media screen and(max-width:576px) {
+        @media screen and (max-width:576px) {
     
             margin-top: 50px;
         }
@@ -15,7 +15,7 @@
             color: var(--p-color2);
             font-weight: 400;
             text-align: center;
-            @media screen and(max-width:576px) {
+            @media screen and (max-width:576px) {
     
       padding-right: 15px;
       padding-left: 15px;
@@ -26,14 +26,14 @@
             display: grid;
             grid-template-columns: 4fr 4fr 4fr 4fr;
             padding-left: 0;
-            @media screen and(max-width:768px) {
+            @media screen and (max-width:768px) {
                 grid-template-columns: 1fr 1fr 1fr;
                 padding-top: 70px;
             }
-            @media screen and(max-width:576px) {
+            @media screen and (max-width:576px) {
                 padding-top: 40px;
             }
-            @media screen and(max-width:576px) {
+            @media screen and (max-width:576px) {
                 grid-template-columns: 1fr 1fr;
             }
             li {
@@ -110,17 +110,17 @@
             }
             li:nth-child(2) {
                 border-top-color: transparent;
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                 border-right-color: transparent;
                  
                 }
             }
             li:nth-child(3) {
                 border-top-color: transparent;
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                     border-right-color: transparent !important;
                 }
-                @media screen and(max-width:576px) {
+                @media screen and (max-width:576px) {
                     border-left-color: transparent;
                     border-right-color:var(--border-color) !important;
                      
@@ -129,11 +129,11 @@
             li:nth-child(4) {
                 border-top-color: transparent;
                 border-right-color: transparent;
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                     border-left-color:transparent !important;
                     border-right-color:var(--border-color);
                 }
-                @media screen and(max-width:576px) {
+                @media screen and (max-width:576px) {
                     border-right-color: transparent !important;
 
                      
@@ -144,22 +144,22 @@
                 border-top-color: transparent;
             }
             li:nth-child(6) {
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                     border-right-color:transparent !important;
                 }
             }
             li:nth-child(7) {
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                     border-left-color:transparent !important;
                 }
             }
             li:nth-child(8) {
                 border-bottom-color: transparent;
                 border-right-color: transparent;
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                     border-right-color:var(--border-color);
                 }
-                @media screen and(max-width:576px) {
+                @media screen and (max-width:576px) {
                     border-right-color: transparent !important;
 
                      
@@ -168,23 +168,23 @@
             li:nth-child(9) {
                 border-bottom-color: transparent;
                 border-left-color: transparent;
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                     border-right-color:transparent
                 }
             }
             li:nth-child(10) {
                 border-bottom-color: transparent;
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                     border-left-color:transparent
                 }
-                @media screen and(max-width:576px) {
+                @media screen and (max-width:576px) {
                     border-right-color: transparent !important;
                     border-left-color: var(--border-color);
                     }
             }
             li:nth-child(11) {
                 border-bottom-color: transparent;
-                @media screen and(max-width:576px) {
+                @media screen and (max-width:576px) {
                     border-left-color: transparent !important;
                 
                     }

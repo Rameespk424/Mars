@@ -1,7 +1,7 @@
 .second_menu {
   border: 1px solid var(--border-color);
   .navbar-collapse{
-    @media screen and(max-width:768px) {
+    @media screen and (max-width:768px) {
         width: 200px !important;
       background:var(--white-color) !important;
       position: absolute !important;
@@ -88,7 +88,7 @@
           transition: 0.5s;
           border-radius: 25px;
           color: var(--white-color) !important;
-          @media screen and(max-width:768px) {
+          @media screen and (max-width:768px) {
             background-color:transparent;
           color: var(--p-color)!important;
           }
@@ -100,7 +100,7 @@
           transition: 0.5s;
           border-radius: 5px;
           color: var(--white-color) !important;
-          @media screen and(max-width:768px) {
+          @media screen and (max-width:768px) {
          background-color: transparent !important;
          color: var(--mars-color-3) !important;
           }
@@ -137,15 +137,15 @@
       }
     .second-link{
         padding: 8px 20px !important;
-        @media screen and(max-width:992px) {
+        @media screen and (max-width:992px) {
           padding: 8px 10px !important;
         }
-        @media screen and(max-width:992px) {
+        @media screen and (max-width:992px) {
           padding: 8px 20px !important;
         }
       }
       .pg{
-        @media screen and(max-width:768px) {
+        @media screen and (max-width:768px) {
           padding: 8px 20px !important;
         }
       }
@@ -184,7 +184,7 @@
           margin-right: auto;
           transform: translateY(5px) !important;
 
-          @media screen and(max-width:768px) {
+          @media screen and (max-width:768px) {
            display: none;
           }
 
@@ -204,7 +204,7 @@
           margin-right: auto;
           transform: translateY(10px);
           transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
-          @media screen and(max-width:768px) {
+          @media screen and (max-width:768px) {
             display: none;
            }
         }
@@ -214,7 +214,7 @@
         background-color: transparent !important;
         border-radius: 25px;
         margin-right: 10px;
-        @media screen and(max-width:768px) {
+        @media screen and (max-width:768px) {
           border: none;
         }
       }
@@ -224,7 +224,7 @@
         transition: 0.5s;
         border-radius: 25px;
         margin-right: 10px;
-        @media screen and(max-width:768px) {
+        @media screen and (max-width:768px) {
           border: none !important;
         }
       }
@@ -234,7 +234,7 @@
         border-radius: 5px;
         margin-right: 10px;
         color: var(--white-color) !important;
-        @media screen and(max-width:768px) {
+        @media screen and (max-width:768px) {
        background-color: transparent !important;
        color: var(--sub-color-2) !important;
             }
@@ -256,7 +256,7 @@
           width: 0;
           height: 1px;
           transition: all 0.3s ease;
-          @media screen and(max-width:768px) {
+          @media screen and (max-width:768px) {
         display: none;
           }
         }
@@ -273,7 +273,7 @@
           background-color: var(--sub-color-2);
           height: 1px;
           transition: all 0.3s ease;
-          @media screen and(max-width:768px) {
+          @media screen and (max-width:768px) {
             display: none;
               }
         }
@@ -284,7 +284,7 @@
         border-radius: 25px;
         margin-right: 10px;
         color: var(--white-color);
-        @media screen and(max-width:768px) {
+        @media screen and (max-width:768px) {
           background-color: transparent;
           color: var(--mars-color-3);
         }
@@ -301,7 +301,7 @@
         border-color: var(--sub-color-2);
         border-radius: 25px;
         margin-right: 10px;
-        @media screen and(max-width:768px) {
+        @media screen and (max-width:768px) {
           border: none !important;
          }
       }
@@ -312,7 +312,7 @@
         margin-right: 10px;
         -webkit-transition: 0.5s;
         transition: 0.5s;
-        @media screen and(max-width:768px) {
+        @media screen and (max-width:768px) {
           border: none !important;
          }
       }
@@ -388,7 +388,7 @@
   border: 1px solid var(--border-color);
   background-color: var(--mars-color-2);
   .navbar-collapse{
-    @media screen and(max-width:768px) {
+    @media screen and (max-width:768px) {
         width: 200px !important;
         background-color: var(--mars-color-2)!important;
       position: absolute !important;

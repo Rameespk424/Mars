@@ -266,7 +266,7 @@
               .img_wrapper {
                 position: relative;
                 margin: auto;
-                @media screen and(max-width:600px) {
+                @media screen and (max-width:600px) {
                   max-width: 100%;
                 }
                 img {
@@ -335,20 +335,20 @@
         .port_grid {
           // display: grid;
           // grid-template-columns: 1fr 1fr 1fr;
-          // @media screen and(max-width:992px) {
+          // @media screen and (max-width:992px) {
             
           // }
         }
 
         .port_grid > div {
           width: 20% !important;
-          @media screen and(max-width:992px) {
+          @media screen and (max-width:992px) {
            width: 25% !important; 
           }
-          @media screen and(max-width:768px) {
+          @media screen and (max-width:768px) {
             width: 50% !important; 
            }
-           @media screen and(max-width:576px) {
+           @media screen and (max-width:576px) {
             width: 100% !important; 
            }
         }
@@ -360,53 +360,53 @@
 
         .masnory_grid > div {
           width: 50% !important;
-            @media screen and(max-width:576px) {
+            @media screen and (max-width:576px) {
              width: 100% !important; 
             }
         }
 
         .masnory_grid_three > div {
           width: 33% !important;
-          @media screen and(max-width:992px) {
+          @media screen and (max-width:992px) {
             width: 50% !important; 
            }
-           @media screen and(max-width:576px) {
+           @media screen and (max-width:576px) {
             width: 100% !important; 
            }
         }
         .masnory_grid_three > .m_s_3 {
           width: 66% !important;
-          @media screen and(max-width:992px) {
+          @media screen and (max-width:992px) {
             width: 50% !important; 
            }
-           @media screen and(max-width:576px) {
+           @media screen and (max-width:576px) {
             width: 100% !important; 
            }
         }
 
         .masnory_grid_four > div {
           width: 25% !important;
-          @media screen and(max-width:992px) {
+          @media screen and (max-width:992px) {
             width: 50% !important; 
            }
-           @media screen and(max-width:576px) {
+           @media screen and (max-width:576px) {
             width: 100% !important; 
            }
         }
 
         .masnory_grid_four > .m_s_4 {
           width: 50% !important;
-          @media screen and(max-width:768px) {
+          @media screen and (max-width:768px) {
             width: 100% !important; 
            }
         }
 
         .masnory_grid_five > div {
           width: 20% !important;
-          @media screen and(max-width:992px) {
+          @media screen and (max-width:992px) {
             width: 50% !important; 
            }
-           @media screen and(max-width:576px) {
+           @media screen and (max-width:576px) {
             width: 100% !important; 
            }
           
@@ -414,15 +414,15 @@
 
         .masnory_grid_five > .m_s_5 {
           width: 40% !important;
-          @media screen and(max-width:992px) {
+          @media screen and (max-width:992px) {
             width: 100% !important; 
            }
         } .masnory_grid_five > .m_s_6 {
           
-          @media screen and(max-width:992px) {
+          @media screen and (max-width:992px) {
             width: 50% !important; 
            }
-           @media screen and(max-width:576px) {
+           @media screen and (max-width:576px) {
             width: 100% !important; 
            }
         }

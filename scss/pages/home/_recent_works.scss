@@ -163,17 +163,17 @@
         margin: 1.75rem auto;
 
 
-        @media screen and(max-width:992px) {
+        @media screen and (max-width:992px) {
           width: 600px;
         }
         
-        @media screen and(max-width:768px) {
+        @media screen and (max-width:768px) {
           width: 75%;
         }
         .modal-content {
           background-color: transparent !important;
           border: none;
-          @media screen and(max-width:768px) {
+          @media screen and (max-width:768px) {
            .modal-title{
              font-size: 14px;
            }
@@ -303,7 +303,7 @@
           .img_wrapper {
             position: relative;
             margin: auto;
-            @media screen and(max-width:600px) {
+            @media screen and (max-width:600px) {
               max-width: 100%;
             }
             img {

@@ -79,13 +79,13 @@ margin-top: 100px;
                 display: grid;
                 grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
 
-                @media screen and(max-width:1200px) {
+                @media screen and (max-width:1200px) {
                 grid-template-columns: 4fr 4fr 4fr 4fr; 
                       }
-                      @media screen and(max-width:768px) {
+                      @media screen and (max-width:768px) {
                         grid-template-columns: 3fr 3fr 3fr; 
                               }  
-                                @media screen and(max-width:576px) {
+                                @media screen and (max-width:576px) {
                                 grid-template-columns: 2fr 2fr  
                                       }
 
@@ -126,7 +126,7 @@ margin-top: 100px;
                     border-left-color: transparent;
                     border-top-color: transparent;
                     border-bottom-color: transparent;
-                @media screen and(max-width:1200px) {
+                @media screen and (max-width:1200px) {
                     border-bottom-color: var(--border-color);
                 }
                 }
@@ -138,14 +138,14 @@ margin-top: 100px;
                 }
                 li:nth-child(4) {
                     border-top-color: transparent;
-                    @media screen and(max-width:1200px) {
+                    @media screen and (max-width:1200px) {
                         border-right-color:transparent;
                     }
                 }
                 li:nth-child(5) {
                     border-right-color: transparent;
                     border-top-color: transparent;
-                    @media screen and(max-width:1200px) {
+                    @media screen and (max-width:1200px) {
                         border-right-color: var(--border-color);
                         border-left-color: transparent;
                     }
@@ -156,13 +156,13 @@ margin-top: 100px;
                 }
                 li:nth-child(7) {
                     border-bottom-color: transparent;
-                    @media screen and(max-width:1200px) {
+                    @media screen and (max-width:1200px) {
                         border-bottom-color: var(--border-color);
                     }
                 }
                 li:nth-child(8) {
                     border-bottom-color: transparent;
-                    @media screen and(max-width:1200px) {
+                    @media screen and (max-width:1200px) {
                         border-bottom-color: var(--border-color);
                         border-right-color:transparent;
                     }

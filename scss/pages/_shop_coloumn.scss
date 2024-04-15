@@ -4,7 +4,7 @@
     .wrapper {
         margin-bottom: 10px;
         .shop_top_bar {
-            @media screen and(max-width:992px) {
+            @media screen and (max-width:992px) {
                 padding-bottom: 15px;
             }
             .left {
@@ -24,7 +24,7 @@
                 }
             }
             .right_1 {
-                @media screen and(max-width:576px) {
+                @media screen and (max-width:576px) {
                     padding-bottom: 15px;
                 }
                 h6 {
@@ -72,10 +72,10 @@
         border-bottom-color: var(--border-color);
         .sustainable_product {
             padding-top: 70px;
-            @media screen and(max-width:992px) {
+            @media screen and (max-width:992px) {
                 padding: 70px 25px 0 35px;
             }
-            @media screen and(max-width:768px) {
+            @media screen and (max-width:768px) {
                 padding: 70px 0px 0 0px;
             }
             .sustainable {
@@ -291,21 +291,21 @@
                     &:hover {
                         background-color: var(--mars-color-2);
                     }
-                    @media screen and(max-width:1199px) {
+                    @media screen and (max-width:1199px) {
                         top: 230px;
                         width: 100%;
                         padding: 9px 50px;
                         font-size: 16px;
                         text-align: center;
                     }
-                    @media screen and(max-width:991px) {
+                    @media screen and (max-width:991px) {
                         top: 377px;
                         width: 100%;
                         padding: 11px 50px;
                         font-size: 18px;
                         text-align: center;
                     }
-                    @media screen and(max-width:767px) {
+                    @media screen and (max-width:767px) {
                         top: 260px;
                         padding: 11px 50px;
                         font-size: 18px;
@@ -319,15 +319,15 @@
             .product_grid {
                 display: grid;
                 grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
-                @media screen and(max-width:992px) {
+                @media screen and (max-width:992px) {
                     grid-template-columns: 1fr 1fr 1fr 1fr;
                         
-                    }@media screen and(max-width:768px) {
+                    }@media screen and (max-width:768px) {
                         grid-template-columns:  1fr 1fr;
                             
                         }
 
-                        @media screen and(max-width:400px) {
+                        @media screen and (max-width:400px) {
                             grid-template-columns:   1fr;
                                 
                             }
@@ -352,15 +352,15 @@
                 display: grid;
                 grid-template-columns: 6fr 6fr 6fr 6fr 6fr 6fr;
                 grid-column-gap: 15px;
-                @media screen and(max-width:992px) {
+                @media screen and (max-width:992px) {
                     grid-template-columns: 1fr 1fr 1fr 1fr;
                         
-                    }@media screen and(max-width:768px) {
+                    }@media screen and (max-width:768px) {
                         grid-template-columns:  1fr 1fr;
                             
                         }
 
-                        @media screen and(max-width:400px) {
+                        @media screen and (max-width:400px) {
                             grid-template-columns:   1fr;
                                 
                             }
@@ -384,15 +384,15 @@
             .product_grid_load_more {
                 display: grid;
                 grid-template-columns: 3fr 3fr 3fr;
-                @media screen and(max-width:992px) {
+                @media screen and (max-width:992px) {
                     grid-template-columns: 1fr 1fr 1f;
                         
-                    }@media screen and(max-width:768px) {
+                    }@media screen and (max-width:768px) {
                         grid-template-columns:  1fr 1fr;
                             
                         }
 
-                        @media screen and(max-width:400px) {
+                        @media screen and (max-width:400px) {
                             grid-template-columns:   1fr;
                                 
                             }
@@ -435,7 +435,7 @@
     background-color: var(--footer);
     padding: 40px 0px;
     .wrapper {
-        @media screen and(max-width:768px) {
+        @media screen and (max-width:768px) {
             padding-top: 40px;
         }
         .services {

@@ -4,10 +4,10 @@
     .wrapper {
         .card_wrapper {
             .card-columns{
-@media screen and(max-width:992px) {
+@media screen and (max-width:992px) {
     column-count: 2;
 }
-@media screen and(max-width:576px) {
+@media screen and (max-width:576px) {
     column-count: 1;
     
 }

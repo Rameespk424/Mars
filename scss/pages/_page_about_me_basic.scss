@@ -1,7 +1,7 @@
 .about_basic_me {
     .company {
         padding-top: 80px;
-        @media screen and(max-width:768px) {
+        @media screen and (max-width:768px) {
             padding-bottom: 50px;
         }
         .wrapper {
@@ -14,7 +14,7 @@
             .p_wrapper {
                 display: flex;
                 padding-top: 20px;
-                @media screen and(max-width:768px) {
+                @media screen and (max-width:768px) {
                     display: block;
                 }
                 .right_p,
@@ -31,13 +31,13 @@
                 }
                 .right_p {
                     padding-right: 30px;
-                    @media screen and(max-width:768px) {
+                    @media screen and (max-width:768px) {
                         padding-right: 0px;
                     }
                 }
                 .left_p {
                     margin-left: 30px;
-                    @media screen and(max-width:768px) {
+                    @media screen and (max-width:768px) {
                         margin-left: 0px;
                     }
                     p {
@@ -166,7 +166,7 @@
         padding-top: 100px;
 
         margin-bottom: 100px;
-        @media screen and(max-width:768px){
+        @media screen and (max-width:768px){
             
         }
         h4 {

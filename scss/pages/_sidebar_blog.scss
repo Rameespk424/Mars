@@ -5,13 +5,13 @@
 
 .s_both{
     width: 80%;
-    @media screen and(max-width:992px) {
+    @media screen and (max-width:992px) {
         width: 100%;
     }
-    @media screen and(max-width:768px) {
+    @media screen and (max-width:768px) {
         width: 80%;
     }
-    @media screen and(max-width:576px) {
+    @media screen and (max-width:576px) {
         width: 100%;
     }
 }
@@ -34,7 +34,7 @@
                 justify-content: space-between;
                 border: 1px solid transparent;
                 border-bottom-color: var(--border-color) !important;
-@media screen and(max-width:768px) {
+@media screen and (max-width:768px) {
     display: block;
 }
 
@@ -61,7 +61,7 @@
                     width: 30%;
                     justify-content: end;
 
-                    @media screen and(max-width:768px) {
+                    @media screen and (max-width:768px) {
                         justify-content: flex-start;
                         padding-left: 0;
                         width: 100%;
@@ -121,7 +121,7 @@
                 justify-content: space-between;
                 border: 1px solid transparent;
                 border-bottom-color: var(--border-color) !important;
-@media screen and(max-width:992px) {
+@media screen and (max-width:992px) {
     display: block;
 }
 
@@ -150,7 +150,7 @@
                     width: 30%;
                     justify-content: end;
 
-                    @media screen and(max-width:992px) {
+                    @media screen and (max-width:992px) {
                         justify-content: flex-start;
                         padding-left: 0;
                         width: 100%;
@@ -267,7 +267,7 @@
                         .wrapp {
                             text-align: right;
 
-                            @media screen and(max-width:768px) {
+                            @media screen and (max-width:768px) {
                                 display: none;
                             }
                         }
@@ -302,7 +302,7 @@
                         .wrapp {
                             text-align: right;
 
-                            @media screen and(max-width:768px) {
+                            @media screen and (max-width:768px) {
                                 display: none;
                             }
                         }
@@ -473,7 +473,7 @@
                         margin-top: 30px;
                         display: flex;
                         margin-left: 75px;
-@media screen and(max-width:768px) {
+@media screen and (max-width:768px) {
     margin-left: 0;
 }
                         .img_wrapper {
@@ -534,7 +534,7 @@
                         margin-top: 30px;
                         display: flex;
                         margin-left: 125px;
-                        @media screen and(max-width:768px) {
+                        @media screen and (max-width:768px) {
                             margin-left: 0;
                         }
                         .img_wrapper {
@@ -595,7 +595,7 @@
                         margin-top: 30px;
                         display: flex;
                         margin-left: 50px;
-                        @media screen and(max-width:768px) {
+                        @media screen and (max-width:768px) {
                             margin-left: 0;
                         }
                         .img_wrapper {

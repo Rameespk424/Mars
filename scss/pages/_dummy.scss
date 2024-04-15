@@ -65,7 +65,7 @@
         border-bottom-color: var(--border-color);
         .sustainable_product {
             padding-top: 70px;
-            @media screen and(max-width:992px) {
+            @media screen and (max-width:992px) {
                 padding: 70px 25px 0 35px;
             }
             .sustainable {
@@ -281,21 +281,21 @@
                     &:hover {
                         background-color: var(--mars-color-2);
                     }
-                    @media screen and(max-width:1199px) {
+                    @media screen and (max-width:1199px) {
                         top: 230px;
                         width: 100%;
                         padding: 9px 50px;
                         font-size: 16px;
                         text-align: center;
                     }
-                    @media screen and(max-width:991px) {
+                    @media screen and (max-width:991px) {
                         top: 377px;
                         width: 100%;
                         padding: 11px 50px;
                         font-size: 18px;
                         text-align: center;
                     }
-                    @media screen and(max-width:767px) {
+                    @media screen and (max-width:767px) {
                         top: 260px;
                         padding: 11px 50px;
                         font-size: 18px;

@@ -1,6 +1,6 @@
 .single_product {
   padding-top: 200px;
-  @media screen and(max-width:768px) {
+  @media screen and (max-width:768px) {
    padding-top: 120px;
   }
   .top {
@@ -205,10 +205,10 @@
           padding: 25px 0 20px 0;
           display: flex;
           justify-content: space-between;
-          @media screen and(max-width:768px) {
+          @media screen and (max-width:768px) {
             margin-top: 40px;
           }
-          @media screen and(max-width:576px) {
+          @media screen and (max-width:576px) {
             display: block;
           }
           h6 {
@@ -282,7 +282,7 @@
             }
           }
           .left {
-            @media screen and(max-width:576px) {
+            @media screen and (max-width:576px) {
              padding-top: 20px ;
             }
             .form-select-small{

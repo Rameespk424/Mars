@@ -8,13 +8,13 @@ font-size: 17em;
 font-weight: 800;
 opacity: 0.1;
 text-align: right;
-@media screen and(max-width:768px) {
+@media screen and (max-width:768px) {
     font-size: 12em;
     font-weight: 700;
     opacity: 0.1;
     text-align: left;
           }
-          @media screen and(max-width:576px) {
+          @media screen and (max-width:576px) {
             font-size: 10em;
             font-weight: 700;
             opacity: 0.1;
@@ -25,7 +25,7 @@ text-align: right;
     .unavilable{
         padding-top: 100px;
      margin-left: -50px;
-     @media screen and(max-width:768px) {
+     @media screen and (max-width:768px) {
         padding-top: 0px;
         margin-left: 0px;
               }
@@ -39,7 +39,7 @@ text-align: right;
                 line-height: 1.1;
                 color: var(--mars-color-2);
                 margin-bottom: 20px;
-                @media screen and(max-width:576px) {
+                @media screen and (max-width:576px) {
                   font-size: 30px !important;
                           }
             }
